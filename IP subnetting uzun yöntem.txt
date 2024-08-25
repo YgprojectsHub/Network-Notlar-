@@ -1,0 +1,26 @@
+IP adresi : w.x.y.z/CIDR
+
+Network adresi : IP adresi ve Subnet mask AND işlemine tabi tut.
+
+Broadcast adresi : Network adresi ve Subnet maskın tersi (wildcast mask) ile OR işlemine tabi tut.
+
+First host : Network adresinin bir fazlası.
+
+Last host : Broadcast adresinin bir eksiği.
+
+------------------------------
+
+IP adresi : 176.206.197.134/18
+
+IP adresi : 176.206.197.134 -> 10110000.11001110.11000101.10000110
+Subnet mask : 255.255.192.0 -> 11111111.11111111.11000000.00000000
+wildcast mask : 0.0.63.255 -> 00000000.00000000.00111111.11111111
+
+Network adresi : 10110000.11001110.11000000.00000000 -> 176.206.192.0
+Broadcast adresi : 10110000.11001110.11111111.11111111 -> 176.206.255.255
+İlk host : 176.206.192.1
+Son host : 176.206.255.254
+
+
+
+

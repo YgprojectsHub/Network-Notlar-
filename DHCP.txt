@@ -1,0 +1,4 @@
+DHCP(Dynamic Host Confugarition Protocol) Dinamik Host Konfigürasyon Protokolü demektir.
+
+Ağınızda bulunan teknolojik aletlerin ip adresi, ağ maskesi, ağ geçidini otomatik atamak için kullanılan bir protokoldür. 
+

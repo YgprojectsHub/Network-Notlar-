@@ -1,0 +1,7 @@
+VPN (Virtual Private Network) Sanal Özel Ağ demektir.
+
+Genel olarak şirketlerin şubeleri arasındaki iletişimi şifreleyerek güvenli iletişim sağlamasını amaçlamaktadır.
+
+En temel anlamıyla internete gerçek IP adresiniz gizlenip, farklı bir IP adresi üzerinden bağlanmanızı sağlayan hizmettir.
+
+Bir bilgisayardan karşı taraftaki diğer bilgisayar arasındaki iletişim kriptolama yapılarak güvenli bir tünel kurulması sağlanır.

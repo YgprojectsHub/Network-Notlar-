@@ -1,0 +1,3 @@
+Default Gateway (Varsayılan Ağ Geçidi)
+
+Aynı evin içerisindeki cihazların birbirleriyle eşlenmesi ve iletişime hazır hale getirilmeleri için router tarafından yönlendirilmesidir.

@@ -1,0 +1,10 @@
+PDU(Protocol Data Unit):        OSI model katmanları :
+	Veri				Uygulama katmanı
+	Veri				Sunum katmanı
+	Veri				Oturum katmanı
+	Segmentler			Ulaşım katmanı
+	Paketler			Ağ katmanı
+	Çerçeveler			Veri bağlantı katmanı
+	Bitler				Fiziksel katman
+
+Switchler veri bağı katmanında çalışır.

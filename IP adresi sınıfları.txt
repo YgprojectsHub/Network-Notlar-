@@ -1,0 +1,13 @@
+Sınıf		Adres Aralığı		   Kullanıcı Sayısı		Subnet Mask
+
+A		0.0.0.0-127.255.255.255   | 16 777 214			255.0.0.0     | İlk karakter network sonraki üç karakter hosta ait.
+	
+B		128.0.0.0-191.255.255.255 | 65 534			255.255.0.0   | İlk iki karakter network sonraki iki karakter hosta ait.
+
+C		192.0.0.0-223.255.255.255 | 254				255.255.255.0 |	İlk üç karakter network sonraki bir karakter hosta ait.	
+		
+Subnet Mask(Alt Ağ Maskesi) bir cihazın hangi networkte olduğunu belirler.
+
+Bir IP adresinin hangi bölümünün network, hangi bölümünün host olduğunu belirler.
+
+Subnet mask leri aynı olan bilgisayarlar router a ihtiyaç duymadan haberleşebilirler.

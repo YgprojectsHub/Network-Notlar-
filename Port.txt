@@ -1,0 +1,11 @@
+Port'un Türkçe anlamı limandır.
+
+Portlar verilerin iletiminin gerçekleştiği giriş-çıkışlardır.
+
+Portlar sanal ve fiziksel olarak ikiye ayrılır.
+
+Fiziksel portlar örneğin bir bilgisayar kasasının jak html girişleri denilebilir.
+
+Sanal portlar ise uygulamaların belli alanlarda hizmet verebilmesi için oluşturulan sanal limanlardır. 
+
+Sanal portlar sınırlı sayıdadır bir bilgisayarda 65.536 port vardır ve sadece 65.535 port kullanılabilir çünkü 0 portu TCP için ayrılmıştır.

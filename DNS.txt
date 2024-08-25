@@ -1,0 +1,1 @@
+DNS(Domain Name Server) Alan adı sunucusu kullanıcıların giriş yapabildiği web sitelerinin IP adreslerini bilmeleri gerekli olmasın diye sayısal(IP) adreslerinin karşısına sözcük gelecek şekilde tasarlanan bir sistemdir.

@@ -1,0 +1,9 @@
+Mac Adresi (Media Access Control Address) : Her cihazda başka bir cihazda olmayan özel bir sayısal veri var.
+
+Mac Adresi 6 karakterlidir ilk üç karakter üretici firmanın kimliğidir son üç karakter ise cihazın kimliğidir.
+
+LAN düzeyinde çalışan bir internet ağ sisteminde cihazlar birbirlerini MAC adresleri ile tanır.
+
+Fakat WAN düzeyinde çalışan bir internet ağ sisteminde cihazlar birbirlerini IP adresi üzerinden tanır.
+
+1 byte 8 bit olduğundan ötürü 6 byte lık bir MAC adresi 48 bittir.

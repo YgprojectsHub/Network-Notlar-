@@ -1,0 +1,73 @@
+-Decimal(Onlu) Sayı Sistemi-
+
+0 ile 9 arasındaki rakmalar kullanılır.
+
+567 sayısı decimal sayı sisteminde şu şekilde bulunur :
+	
+	7 : 10^0 * 7 = 7
+	6 : 10^1 * 6 = 60
+	5 : 10^2 * 5 = 500
+
+	500 + 60 + 7 = 567
+
+-Binary(İkili) Sayı Sistemi-
+
+Sadece 0 ve 1 kullanılır.
+
+1011 sayısı binary sayı sisteminde şu şekilde bulunur :
+
+	1 : 2^0 * 1
+	1 : 2^1 * 1
+	0 : 2^2 * 0
+	1 : 2^3 * 1
+
+	1 + 2 + 0 + 8 = 11
+
+-HexaDecimal(onaltılı) Sayı Sistemi-
+
+0 ile 9 arasındaki rakamları ekstra olarak A-F arasındaki harfleri içerir.
+Genellikle renk ve işletim kodlarında kullanılır örneğin #f0f0f0 renk kodu.
+
+Renk kodlarında 3 bitlik ya da renk skalası daha büyük olmak amacıyla 6 bitlik olacak şekilde kullanılır.
+
+A : 10
+B : 11
+C : 12
+D : 13
+E : 14
+F : 15
+
+
+-Decimal To Binary To HexaDecimal-
+
+192 = 11000000 -> 1100 0000
+	       -> 12   0
+	       -> c    0
+Decimal 192 = Binary 1100 0000 = HexaDecimal c0	       	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

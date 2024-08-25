@@ -1,0 +1,15 @@
+IP adresi sayısal bir değerdir.
+3.Katman yani network katmanında çalışan bir protokoldür.
+IP adresi yönetici tarafından değiştirilebilir.
+Ağdaki cihazları tanımlamak için kullanılır.
+Ağdaki her cihazın özel bir IP adresi vardır.
+
+Connectionless (Bağlantısız) bir protokoldür.
+Paketin hedefe ulaşmasını garanti etmez.
+Bu sayede hızlı çalışır.
+
+IP adresi 32 bittir -> 192.168.1.1 -> X.X.X.X şeklinde gösterirsek her bir "X" 8 bittir bu sayede 8*4 ten 32 bit gelir. Ayrıca ilk 3 "X" değerine oktet(network) denir. Son "X" değerine ise Host denir.
+
+Hatırlatma: 
+binary -> 0 ve 1 lerden oluşur.
+decimal -> 0-9 aralığındaki rakamlardan oluşur.

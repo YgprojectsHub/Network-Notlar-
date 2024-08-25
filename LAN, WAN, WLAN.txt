@@ -1,0 +1,5 @@
+LAN (Local Area Network) Yerel alan ağı : Ev içindeki teknolojik aletlerin birbirleriyle kablolu iletişimini sağlayan ağ protokolüdür.
+
+WLAN (Wireless Local Area Network) Kablosuz yerel alan ağ : Ev içindeki teknolojik aletlerin birbirleriyle kablosuz iletişimini sağlayan ağ protokolüdür.
+
+WAN (Wide Area Network) Geniş alan ağ : Dünyada ki teknolojik aletlerin birbiriyle kablolu ya da kablosuz iletişimini sağlayan ağ protokolüdür.

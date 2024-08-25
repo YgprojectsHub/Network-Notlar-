@@ -1,0 +1,13 @@
+IP adresi (Internet Protocol) anlamına gelmektedir.
+
+IP adresi iki çeşidi vardır Private IP adress ve Public IP address.
+
+Private IP adresi Evde ya da Ofiste bulunan modeme kablolu veya kablosuz bağlanan bir cihaz için modem tarafından o cihaza otomatik olarak bir IP adresi atanır. Bu IP adresine "Local IP " veya "Private IP" adresi denir. Bu adres o modeme bağlanan cihazları birbirinden ayırmak için kullanılır. Fakat internete bu adresleri kullanarak çıkamazsınız.
+
+10.0.0.0 - 10.255.255.255
+172.16.0.0 - 172.31.255.255
+192.168.0.0 - 192.168.255.255
+
+Public IP adresi ise internet servis sağlayıcıları tarafından verilir ve internete açılırken bu IP adresi ile gireriz.
+
+İnternet servis sağlayıcıları private IP adresimizi public IP adresine çevririr. Bu işlemi NAT ile yapar.

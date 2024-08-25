@@ -1,0 +1,7 @@
+Oturum katmanındaki iki bilgisayardaki uygulama arasındaki bağlantının yapılması, kullanılması ve bitilmesi işlemleri yapılır. Bir bilgisayar birden fazla bilgisayarlarla aynı anda iletişim içinde olduğunda, gerektiğinde doğru bilgisayarla konuşabilmesi sağlar.
+
+Sunum Katmanının en önemli görevi yollanan verinin karşı bilgisayar tarafından anlaşılacak şekilde çevrilmesidir. Bu sayede farklı programların birbirlerinin verisini kullanabilmesi mümkün olur.
+
+GIF, JPEG, TIFF, EBCDIC, ASCII vb.
+
+Uygulama katmanı bilgisayar uygulaması ile ağ arasında arabirim sağlar.

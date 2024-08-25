@@ -1,0 +1,11 @@
+FTP(File Transfer Protocol) Dosya aktarım protokolü demektir.
+
+İki bilgisayar arasında dosya paylaşımı yapabilmek için FTP protokolü kullanılır.
+
+Bir bilgisayar ve bir web sunucusunda genelde FTP için sunucuda kullanıcı için bir FTP hesabı açılır ve kullanıcı bu hesap bilgileriyle sunucu ile FTP işlemleri gerçekleştirebilir.
+
+SSH(Secure Shell) Güvenli kabuk demektir.
+
+Kullanıcılara sunucularını internet üzerinden kontrol etmesini sağlayan uzak yönetim protokolüdür.
+Veri iletilirken şifrelenir.
+SSH, telnet için güvenli bir yedek olarak oluşturuldu.

@@ -1,0 +1,13 @@
+HTTP(Hyper Text Transfer Protocol) Hiper metin gönderim protokolü 1990'lı yıllardan beri network üzerinde kullanılır.
+
+Uygulama katmanında çalışır.
+Fakat güvenli değildir. İletilen/Gelen veri şifrelenmemiş haldedir buda hackerlar için kolay lokmadır.
+
+Google Chrome, Mozilla, Firefox, Opera gibi web tarayıcıları ile birlikte kullanılır.
+
+HTTPS(Secure Hyper Text Transfer Protocol) İletilen/Gelen veri şifreler, böylece kullanım için güvenli bir alan oluşturulmuş olur.
+
+HTTPS ağında veriler TLS ya da SSL ile şifreleniyor.
+
+TLS(Transport Layer Security) Taşıma Katmanı Güvenliği
+SSL(Secure Socket Layer) Güvenli Soket Katmanı

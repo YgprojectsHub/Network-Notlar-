@@ -1,0 +1,2 @@
+Bu katmanda PDU lar packet olarak adlandırılır.
+Bu katman yönlendirmelerden ve adreslemeden sorumludur.

@@ -1,0 +1,3 @@
+PDU'lar bu katmanda segment olarak adlandırılır.
+Veri iletiminden sorumludur.
+Veri iletimini TCP ve UDP denilen iki önemli protokol sağlar.

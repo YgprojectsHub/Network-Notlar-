@@ -1,0 +1,31 @@
+TCP(Transmission Control Protocol) gönderim kontrol protokolü anlamına gelmektedir.
+
+Bağlantı temelli bir protokol olan TCP'de kullanıcı verisi taşınmadan önce bağlantı kurulması gerekir.
+
+Protokol, ulaşım katmanında uçtan-uca güvenilir bir ortam yaratmayı amaçlar.
+
+Ortamın güvenilirliği, kaybolan paketlerin tekrar gönderilmesini temel alır.
+
+-TCP bayrakları-
+
+SYN > Synchronzation : Senkronizasyon
+
+ACK > Acknowledgement : Bilgilendirme
+
+FIN > Finish : Bağlantıyı sonlandırma
+
+RST > Reset : Kopma, İptal etme
+
+URG > Urgent : Acil
+
+PSH > Push : Veriyi doğrudan gönderilebilir
+
+Bağlantılar "Three way handshake" (üç yollu el sıkışma) ile gerçekleşir.
+
+Örnek PC-Sunucu nasıl bağlantı kurar :
+
+PC SYN bayrağı gönderir
+Sunucu SYN ve ACK bayrağı gönderir
+PC ACK bayrağı gönderir
+
+Bağlantı kuruldu ✅

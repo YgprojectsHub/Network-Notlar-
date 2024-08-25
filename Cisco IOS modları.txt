@@ -1,0 +1,15 @@
+Cisco IOS(Internetworking Operating System) Network işletim sistemidir.
+
+Cisco IOS CLI(Command Line Interface) Network işletim sistemi komut satırı arayüzüdür.
+
+Cisco IOS Modları :
+
+Router> 		User Mode (Kullanıcı Modu)
+Router# 		Privileged Mode (Ayrıcalıklı Mod)
+Router(config)#		Global Configuration Mode (Konfigürasyon Mod)
+Router(config-if)#	İnterface Mode (Arayüz Modu)
+
+CLI erişimi üç farklı yoldan sağlayabiliriz:
+	Konsol portu
+	Telnet
+	SSH(Secure Shell-güvenli kabuk)

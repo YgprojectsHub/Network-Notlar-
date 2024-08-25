@@ -1,0 +1,7 @@
+UDP'nin temel işlevi verilerin gönderimini bağlantı kurulmaksızın gerçekleştirmektir.
+
+TCP'ye göre hızlıdır fakat güvenli değildir.
+
+UDP çoğu protokolün aksine veriyi gönderdikten sonra iletilip iletilmediği ile ilgilenmez ve bu konuda kullanıcıya bilgi vermez.
+
+Ses ve video gönderiminde kullanılır.

@@ -1,0 +1,5 @@
+ARP(Adress Resolution Protocol) Nedir ?
+
+ARP protokolü IP adresi ile MAC adresini eşleştiren bir protokoldür.
+
+Cihazlar birbirlerini MAC adresi tanır. Eğer MAC adresi arp tablosunda yoksa(Yani bilgisiyar bağlanacağı cihazı tanımıyorsa) arp paketleri gönderilerek IP-MAC eşleştirmesi yapılır.

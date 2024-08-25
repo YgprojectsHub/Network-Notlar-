@@ -1,0 +1,8 @@
+İletişim çeşitleri üçe ayrılır.
+
+1-UniCast(Tek bir noktaya hizmet/yayın)
+2-MultiCast(Çoklu noktaya hizmet/yayın)
+3-BroadCast(Genele hizmet/yayın)
+
+BroadCast Dezavantajları : 
+	BroadCast in sınırı router'a kadardır.

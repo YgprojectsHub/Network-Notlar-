@@ -1,0 +1,1 @@
+Switch : Router a monte edilen ve kullanıcıları sınıflayarak mesafeli iletişim sağlayan ya da iletişimi kesen ve böylece kullanıcıların daha hızlı bir ağ oluşturmasını sağlayan kablodur.

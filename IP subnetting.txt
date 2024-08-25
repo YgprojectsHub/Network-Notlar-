@@ -1,0 +1,135 @@
+Subnetting(Alt ağ bölme)
+
+165.72.83.194/x sondaki x sayısı subnetmaskı temsil eder yani IP sayısını binary çevirdiğimizde ilk x hanede yan yana 1 rakamı bulundurur buda bize subnetmask (CIDR Notation) değerini verir.
+
+165.72.83.194/19
+
+11111111.11111111.11100000.00000000
+255     .255     .224     .0
+
+Network -> 255.255.224
+Host    -> .0		
+
+224 bize subneti 32 ye bölecek şekilde ayarlayarak network'ü bulmamızı işaret eder.	
+
+Network		IP Aralığı		BroadCast
+
+0		1-30			31
+32		33-62			63
+64		65-94			95
+96		97-126			127
+128		129-158			159
+160		161-190			191
+192		193-222			223
+224		225-254			255
+
+11100000 -> 1100 0000
+	 -> 83   0
+
+83 64 ile 96 arasındadır yani,
+
+165.72.64.0 -> Network
+
+165.72.95.255 -> Broadcast
+
+165.72.95.1 -> İlk IP adresi
+
+165.72.95.254 -> Son IP adresi
+
+-----------------------------
+
+128-64-32-16-8-4 olacak şekilde 6 farklı bölüm yöntemi vardır.
+
+
+128 ile bölüm yöntemi (CIDR  -> /25) :
+	
+Network		IP Aralığı		BroadCast
+
+0		1-126			127
+128		129-254			255
+
+
+
+
+64 ile bölüm yöntemi (CIDR  -> /26) :
+	
+Network		IP Aralığı		BroadCast
+
+0		1-62			63
+64		65-126			127
+..		..			..
+
+
+
+
+32 ile bölüm yöntemi (CIDR  -> /27) :
+	
+Network		IP Aralığı		BroadCast
+
+0		1-30			31
+32		33-62			63
+..		..			..
+
+
+
+
+16 ile bölüm yöntemi (CIDR  -> /28) :
+	
+Network		IP Aralığı		BroadCast
+
+0		1-14			15
+16		17-30			31
+..		..			..
+
+
+
+
+8 ile bölüm yöntemi (CIDR  -> /29) :
+	
+Network		IP Aralığı		BroadCast
+
+0		1-6			7
+8		9-14			15
+..		..			..
+
+4 ile bölüm yöntemi (CIDR  -> /30) :
+	
+Network		IP Aralığı		BroadCast
+
+0		1-2			3
+4		5-6			7
+..		..			..
+
+
+-------------------------------------------------------------------------------------------
+
+192.168.1. 111    00000
+network--. alt ağ host
+
+111 -> alt ağ network ün binary bit sayısı = x
+00000 -> host un binary bit sayısı = y
+
+subnet = 2^x
+host sayısı = (2^y)-2
+
+host sayısından 2 çıkarmamızın sebebi bir IP nin broadcast e birinin ise network e ait olması
+
+örneğin :
+
+subnet = 2^3 = 8
+host sayısı = (2^5)-2 = 30
+
+-------------------------------------------------------------------------------------------
+
+1. Sabit Uzunluklu Subnet Maskesi (FLSM - Fixed Length Subnet Mask):
+FLSM yönteminde, tüm alt ağlar aynı boyuttadır. Bu yöntem genellikle daha basit bir hesaplama gerektirir, ancak ağ kaynaklarının verimsiz kullanılmasına neden olabilir.
+
+2. Değişken Uzunluklu Subnet Maskesi (VLSM - Variable Length Subnet Mask):
+VLSM yönteminde, alt ağlar farklı boyutlarda olabilir. Bu yöntem, ağ kaynaklarını daha verimli kullanmanızı sağlar ve farklı büyüklükteki alt ağlar oluşturmanıza olanak tanır.
+
+3. CIDR (Classless Inter-Domain Routing):
+CIDR, IP adreslerini ve yönlendirme bilgilerini daha verimli bir şekilde yönetmek için kullanılan bir yöntemdir. CIDR, IP adreslerini sınıf bazlı (Class A, B, C) yerine sınıf tabanlı olmayan bir şekilde bölmeyi sağlar.
+
+
+
+

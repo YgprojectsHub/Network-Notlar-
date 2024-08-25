@@ -1,0 +1,1 @@
+Ping hedef bilgisayarın çalışıp çalışmadığını kontrol eden ve paketçiklerle yapılan bir kontrol sistemidir.
